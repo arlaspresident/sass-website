@@ -1,1 +1,1 @@
-{"mappings":"","sources":[],"sourcesContent":[],"names":[],"version":3,"file":"index.e8265c92.css.map","sourceRoot":"/__parcel_source_root/"}
+{"mappings":"AAAA;;;;;;AAME","sources":["src/scss/style.scss"],"sourcesContent":["body {\n    background-color: pink;\n    font-family: sans-serif;\n    margin: 0;\n  }\n  \n  h1 {\n    color: #333;\n  }\n  "],"names":[],"version":3,"file":"index.e8265c92.css.map","sourceRoot":"/__parcel_source_root/"}
