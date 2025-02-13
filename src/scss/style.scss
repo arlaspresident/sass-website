@@ -1,10 +1,13 @@
+@use "variables";
+@use "mixins";
+@use "base";
+@use "layout";
+@use "themes";
+@use "components";
+
 body {
-    background-color: pink;
-    font-family: sans-serif;
-    margin: 0;
-  }
-  
-  h1 {
-    color: #333;
-  }
-  
+  font-family: variables.$font-stack;
+  background-color: variables.$background-light;
+  color: variables.$text-light;
+  margin: 0;
+}
