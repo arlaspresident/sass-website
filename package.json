@@ -1,9 +1,8 @@
 {
   "name": "sass-website",
   "version": "1.0.0",
-  "main": "index.html",
   "scripts": {
-    "start": "npm run dev",
+    "start": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "parcel serve src/index.html src/sass.html",
     "build": "parcel build src/index.html src/sass.html"
