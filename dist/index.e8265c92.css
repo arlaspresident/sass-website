@@ -9,6 +9,16 @@ img {
   height: auto;
 }
 
+p {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  margin: 1rem 0 .5rem;
+  line-height: 1.2;
+}
+
 header {
   background-color: #258cd1;
   padding: 1rem 0;
