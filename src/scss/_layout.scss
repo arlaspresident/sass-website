@@ -1,11 +1,12 @@
 @use "variables";
+@use "mixins" as mixins;
 
 header {
     background-color: darken(variables.$primary-color, 5%);
     padding: variables.$spacing-unit 0;
   
     nav {
-      @include container;
+      @include mixins.container;
   
       ul {
         list-style: none;
@@ -22,13 +23,13 @@ header {
   }
   
   .hero {
-    @include container;
+    @include mixins.container;
     padding: 2rem 0;
     text-align: center;
   }
   
   .content {
-    @include container;
+    @include mixins.container;
     padding: 2rem 0;
   }
   

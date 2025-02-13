@@ -1,3 +1,5 @@
+@use "variables" as variables; 
+
 $theme: light;
 
 @media (prefers-color-scheme: dark) {

@@ -1,3 +1,5 @@
+@use "variables" as vars;
+
 @mixin center-content {
     display: flex;
     justify-content: center;
@@ -6,7 +8,7 @@
   
   @mixin container {
     width: 90%;
-    max-width: $max-width;
+    max-width: vars.$max-width;
     margin: 0 auto;
   }
   

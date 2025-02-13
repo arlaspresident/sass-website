@@ -1,5 +1,9 @@
+@use "mixins" as mixins;
+@use "variables" as variables;
+
+
 .button {
-    @include center-content;
+    @include mixins.center-content;
     padding: 0.75rem 1.25rem;
     border: none;
     border-radius: 4px;
@@ -34,7 +38,7 @@
   .gallery {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: $spacing-unit;
+    gap: variables.$spacing-unit;
   
     img {
       width: 100%;
